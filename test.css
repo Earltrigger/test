@@ -99,5 +99,188 @@ justify-content: space-between;
     color: rgb(67, 67, 204);
 }
 
+.more-reasons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding-bottom: 50px;
+    margin-inline: 20%;
+    height: 200px;
+    padding-top: 100px;
+
+}
+
+.grid {
+    color: rgb(19, 144, 253);
+    background-color: white;
+    padding: 20px 10px;
+    overflow: hidden;
+    font-weight: 3rem !important;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .grid .bi {
+    float: left;
+    font-size: xx-large;
+    border: 1px solid  rgb(240, 182, 182);
+    padding: 6px;
+    border-radius: 5px;
+    color: red;
+    background-color: rgb(240, 182, 182);
+
+  }
+
+  .grid-text:hover  {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.08);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.grid h4{
+    text-align: left;
+    color: black;
+    padding-top: 10px;
+    
+}
+
+.grid p{
+    text-align: left;
+    color: rgb(65, 55, 55);
+    padding-top: 10px;
+    font-size: 0.9rem;
+    
+}
+
+.grid {
+    color: rgb(19, 144, 253);
+    background-color: white;
+    padding: 20px 10px;
+    overflow: hidden;
+    font-weight: 3rem !important;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .grid .bi {
+    float: left;
+    font-size: xx-large;
+    border: 1px solid  rgb(240, 182, 182);
+    padding: 6px;
+    border-radius: 5px;
+    color: red;
+    background-color: rgb(240, 182, 182);
+
+  }
+
+  .grid-text:hover  {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.08);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.grid h4{
+    text-align: left;
+    color: black;
+    padding-top: 10px;
+    
+}
+
+.grid p{
+    text-align: left;
+    color: rgb(65, 55, 55);
+    padding-top: 10px;
+    font-size: 0.9rem;
+    
+}
+.grid-1 {
+    color: rgb(19, 144, 253);
+    background-color: white;
+    padding: 20px 10px;
+    overflow: hidden;
+    font-weight: 3rem !important;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .grid-1 .bi {
+    float: left;
+    font-size: xx-large;
+    border: 1px solid rgb(170, 241, 170);
+    padding: 6px;
+    border-radius: 5px;
+    color:green;
+    background-color: rgb(170, 241, 170);
+
+  }
+
+  .grid-text:hover  {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.08);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.grid-1 h4{
+    text-align: left;
+    color: black;
+    padding-top: 10px;
+    
+}
+
+.grid-1 p{
+    text-align: left;
+    color: rgb(65, 55, 55);
+    padding-top: 10px;
+    font-size: 0.9rem;
+    
+}
+
+.grid-2 {
+    color: rgb(19, 144, 253);
+    background-color:rgb(19, 144, 253);
+    padding: 20px 10px;
+    overflow: hidden;
+    font-weight: 3rem !important;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .grid-2 .bi {
+    float: left;
+    font-size: xx-large;
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 5px;
+    color:rgb(19, 144, 253);
+    background-color: white;
+
+  }
+
+  .grid-text:hover  {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.08);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.grid-2 h4{
+    text-align: left;
+    color: white;
+    padding-top: 10px;
+    
+}
+
+.grid-2 p{
+    text-align: left;
+    color: white;
+    padding-top: 10px;
+    font-size: 0.9rem;
+    
+}
+
+
 
 
