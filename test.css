@@ -6,36 +6,98 @@
 body{
     background-color: rgb(34, 34, 77);
 }
+
 .navbar{
-    background-color:transparent;
-    
+margin-left: 10%;
+margin-right: 10%;
+display: flex;
+justify-content: space-between;
+
+
 }
 
 .navbar ul{
-    display: flex;
     list-style-type: none;
-    text-align: center;
-    padding: 10px;
-    
+    font-size: 1rem;
 }
 
 .navbar li{
-    
+    margin: 10px;
+    display: inline-block;
+
 }
 
-.navbar a{
+.navbar a {
+    color: white;
+    padding: 14px 16px;
     text-decoration: none;
-    color: aliceblue;
-    text-align: center;
-    transition: 0.4s ease-in-out;   
-    border-radius: 10px;
-    padding: 5px;
 }
 
-a:hover{
-    background-color: aquamarine;
-    cursor: pointer;
-    transform: scale(1.05);
-    color: red;
-    transition: 0.4s ease-in-out; 
+.btn{
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 5px;
+    background-color:rgb(87, 87, 245);
 }
+
+.logo{
+    color: white;
+    padding-top: 6px;
+}
+
+.me{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.button{
+    padding-top: 20px;
+}
+
+.button li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.button li a{
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.get{
+    background-color: rgb(10, 94, 190);
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.get a{
+    color: white;
+}
+
+.bt{
+    background-color: transparent;
+    border: 1px solid  rgb(10, 94, 190);
+    padding: 6px;
+    border-radius: 5px;
+    color: rgb(10, 94, 190) ;
+}
+
+.me h3{
+    color: white;
+    padding-top: 30px;
+}
+
+.me h2{
+    color: white;
+    padding-top: 30px;
+    font-size: 2.2rem;
+}
+
+.me p{
+    color: rgb(67, 67, 204);
+}
+
+
+
