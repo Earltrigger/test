@@ -12,8 +12,8 @@ margin-left: 10%;
 margin-right: 10%;
 display: flex;
 justify-content: space-between;
-
-
+position: relative;
+padding-top: 10px;
 }
 
 .navbar ul{
@@ -24,7 +24,22 @@ justify-content: space-between;
 .navbar li{
     margin: 10px;
     display: inline-block;
+}
 
+.navbar li:hover a {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.08);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    color: blue;
+}
+
+.navbar .bi{
+    color: white;
+    position: relative;
+    right: 15px;
+    position: absolute;
+    padding-top: 18px;
 }
 
 .navbar a {
@@ -37,7 +52,7 @@ justify-content: space-between;
     border: 1px solid black;
     padding: 6px;
     border-radius: 5px;
-    background-color:rgb(87, 87, 245);
+    background-color:rgb(19, 144, 253);
 }
 
 .logo{
@@ -66,7 +81,7 @@ justify-content: space-between;
 }
 
 .get{
-    background-color: rgb(10, 94, 190);
+    background-color: rgb(19, 144, 253);
     border: 1px solid black;
     padding: 6px;
     border-radius: 5px;
@@ -76,12 +91,26 @@ justify-content: space-between;
     color: white;
 }
 
+.get:hover a {
+    transform: scale(1.08);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    color: red;
+}
+
 .bt{
     background-color: transparent;
-    border: 1px solid  rgb(10, 94, 190);
+    border: 1px solid  rgb(19, 144, 253);
     padding: 6px;
     border-radius: 5px;
-    color: rgb(10, 94, 190) ;
+    color: rgb(19, 144, 253);
+}
+
+.bt:hover a {
+    transform: scale(1.08);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    color: white;
 }
 
 .me h3{
@@ -107,7 +136,6 @@ justify-content: space-between;
     margin-inline: 20%;
     height: 200px;
     padding-top: 100px;
-
 }
 
 .grid {
@@ -118,9 +146,58 @@ justify-content: space-between;
     font-weight: 3rem !important;
     text-align: left;
     cursor: pointer;
-  }
+}
 
-  .grid .bi {
+.grid:hover  {
+    transform: scale(1.08);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    background-color:rgb(240, 182, 182);
+}
+
+.grid:hover p {
+    color: aliceblue;
+}
+
+.grid:hover h4 {
+    color: aliceblue;
+}
+
+.grid-1:hover  {
+    transform: scale(1.08);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    background-color:rgb(170, 241, 170);
+    color: white;
+}
+
+.grid-1:hover p {
+    color: aliceblue;
+}
+
+.grid-1:hover h4 {
+    color: aliceblue;
+}
+
+.grid-2:hover  {
+    transform: scale(1.08);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    background-color:rgb(19, 144, 253);
+    color: white
+}
+
+.grid-2:hover p {
+    color: aliceblue;
+}
+
+.grid-2:hover h4 {
+    color: aliceblue;
+}
+
+
+
+.grid .bi {
     float: left;
     font-size: xx-large;
     border: 1px solid  rgb(240, 182, 182);
@@ -128,72 +205,23 @@ justify-content: space-between;
     border-radius: 5px;
     color: red;
     background-color: rgb(240, 182, 182);
-
-  }
-
-  .grid-text:hover  {
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    transform: scale(1.08);
-    transition: 0.5s ease-out;
-    cursor: pointer;
 }
 
 .grid h4{
     text-align: left;
     color: black;
-    padding-top: 10px;
-    
+    padding-top: 10px; 
+    border-bottom: 2px solid red;
+    width: 40px; 
+    white-space: nowrap;  
+    padding-bottom: 10px;
 }
 
 .grid p{
     text-align: left;
     color: rgb(65, 55, 55);
     padding-top: 10px;
-    font-size: 0.9rem;
-    
-}
-
-.grid {
-    color: rgb(19, 144, 253);
-    background-color: white;
-    padding: 20px 10px;
-    overflow: hidden;
-    font-weight: 3rem !important;
-    text-align: left;
-    cursor: pointer;
-  }
-
-  .grid .bi {
-    float: left;
-    font-size: xx-large;
-    border: 1px solid  rgb(240, 182, 182);
-    padding: 6px;
-    border-radius: 5px;
-    color: red;
-    background-color: rgb(240, 182, 182);
-
-  }
-
-  .grid-text:hover  {
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    transform: scale(1.08);
-    transition: 0.5s ease-out;
-    cursor: pointer;
-}
-
-.grid h4{
-    text-align: left;
-    color: black;
-    padding-top: 10px;
-    
-}
-
-.grid p{
-    text-align: left;
-    color: rgb(65, 55, 55);
-    padding-top: 10px;
-    font-size: 0.9rem;
-    
+    font-size: 0.9rem;    
 }
 .grid-1 {
     color: rgb(19, 144, 253);
@@ -213,21 +241,16 @@ justify-content: space-between;
     border-radius: 5px;
     color:green;
     background-color: rgb(170, 241, 170);
-
   }
-
-  .grid-text:hover  {
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    transform: scale(1.08);
-    transition: 0.5s ease-out;
-    cursor: pointer;
-}
 
 .grid-1 h4{
     text-align: left;
     color: black;
     padding-top: 10px;
-    
+    border-bottom: 2px solid red;
+    width: 40px; 
+    white-space: nowrap;  
+    padding-bottom: 10px;    
 }
 
 .grid-1 p{
@@ -239,8 +262,8 @@ justify-content: space-between;
 }
 
 .grid-2 {
-    color: rgb(19, 144, 253);
-    background-color:rgb(19, 144, 253);
+    color: black;
+    background-color:white;
     padding: 20px 10px;
     overflow: hidden;
     font-weight: 3rem !important;
@@ -251,36 +274,31 @@ justify-content: space-between;
   .grid-2 .bi {
     float: left;
     font-size: xx-large;
-    border: 1px solid white;
+    border: 1px solid rgb(19, 144, 253);
     padding: 6px;
     border-radius: 5px;
-    color:rgb(19, 144, 253);
-    background-color: white;
-
+    color:white;
+    background-color:rgb(19, 144, 253);
   }
-
-  .grid-text:hover  {
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    transform: scale(1.08);
-    transition: 0.5s ease-out;
-    cursor: pointer;
-}
 
 .grid-2 h4{
     text-align: left;
-    color: white;
+    color: black;
     padding-top: 10px;
+    border-bottom: 2px solid red;
+    width: 40px; 
+    white-space: nowrap;  
+    padding-bottom: 10px;
     
 }
 
 .grid-2 p{
     text-align: left;
-    color: white;
+    color: black;
     padding-top: 10px;
     font-size: 0.9rem;
     
 }
-
 
 
 
