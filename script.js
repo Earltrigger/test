@@ -92,9 +92,9 @@ console.log(add(23, 3));*/
 let total = add(4, 5);
 console.log(`this is the ${total}`);*/
 
-/*for(let i = 1; i<=20; i++ ){
+for(let i = 60; i>=20; i-- ){
   console.log(i);
-}*/
+}
 
 /*function checker(para){
   if (para %2 === 0) {return "even";}
