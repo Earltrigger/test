@@ -92,7 +92,7 @@ console.log(add(23, 3));*/
 let total = add(4, 5);
 console.log(`this is the ${total}`);*/
 
-for(let i = 60; i>=20; i-- ){
+/*for(let i = 60; i>=20; i-- ){
   console.log(i);
 }
 
@@ -151,9 +151,62 @@ fruits.splice(2,3,"pineapple", "purple hibiscus", "guava");
 
 console.log(fruits);*/
 
-let nam = ["emem","veronica","esther","uche","miracle","victor"];
+/*let nam = ["emem","veronica","esther","uche","miracle","victor"];
 console.log(nam.indexOf());
 
 let words = ["i ","hate","you"];
 let sentence = words.join("*" );
-console.log(sentence);
+console.log(sentence);*/
+
+let applicantDetails = {
+  firstname: "james",
+  lastname: "kelvin",
+  age: 13,
+  gender: "male",
+  city: "Nevada",
+  email: "earltriggers@gmail.com",
+  greet: function(){
+    return ` hello my name is ${this.firstname} ${this.lastname} and i am a web developer from ${this.city}`;
+  }
+}
+console.log(applicantDetails.greet()); 
+console.log(applicantDetails.firstname);
+console.log(applicantDetails.lastname);
+
+let form = {
+  name: "myForm",
+  action: "https://www.example.com",
+  method: "post",
+  elements: 'GOOD'
+};
+
+for(let key in form) {
+  console.log(`${key}: ${form[key]}`);
+}
+
+let car = {
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2020,
+};
+
+// Adding a property
+car.color = "blue";
+
+// Updating a property
+car.year = 2022;
+
+// Deleting a property
+delete car.model;
+
+console.log(car);
+
+let number = [12, 23, 23, 3, 4, 5, 6, 7];
+
+let total = number.reduce(sum);
+
+console.log(total);
+
+function sum (first, last){
+    return first + last;
+}
