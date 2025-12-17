@@ -166,7 +166,7 @@ let applicantDetails = {
   city: "Nevada",
   email: "earltriggers@gmail.com",
   greet: function(){
-    return ` hello my name is ${this.firstname} ${this.lastname} and i am a web developer from ${this.city}`;
+    return ` hello my name is ${this.firstname} ${this.lastname} and i am a web developer from the ${this.city}`;
   }
 }
 console.log(applicantDetails.greet()); 
